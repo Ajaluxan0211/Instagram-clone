@@ -1,0 +1,266 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/premium_photo-1689977968861-9c91dbb16049.jpeg"
+      },
+      "image": "src/assets/travel-to-the-beautiful-colorful-majestic-waterfall.jpeg",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📸"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "sarah_travels",
+        "profile_pic": "src/assets/profile pic 2.jpeg"
+      },
+      "image": "src/assets/bird-8788491_1280.jpeg",
+      "caption": "Morning vibes ☕ #GoodMorning #Coffee",
+      "likes": 245,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "Love this! ❤️"
+        },
+        {
+          "user": "mike_photo",
+          "comment": "Perfect lighting 🌟"
+        },
+        {
+          "user": "emma_rose",
+          "comment": "This is gorgeous!"
+        }
+      ],
+      "timestamp": "2025-02-12T08:15:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "mike_photo",
+        "profile_pic": "src/assets/profile pic 3.jpeg"
+      },
+      "image": "src/assets/clutha-nature-pictures.jpeg",
+      "caption": "Exploring the hidden gems 🌿 #Travel #Adventure #Nature",
+      "likes": 389,
+      "comments": [
+        {
+          "user": "sarah_travels",
+          "comment": "I need to visit this place! 😍"
+        },
+        {
+          "user": "john_doe",
+          "comment": "Incredible view!"
+        }
+      ],
+      "timestamp": "2025-02-13T11:45:00Z"
+    },
+    {
+      "id": 4,
+      "user": {
+        "id": 104,
+        "username": "emma_rose",
+        "profile_pic": "src/assets/Instagram_logo_2.jpeg"
+      },
+      "image": "src/assets/Instagram_photo-1.jpeg",
+      "caption": "City lights at night 🌃 #CityLife #Urban #Photography",
+      "likes": 512,
+      "comments": [
+        {
+          "user": "mike_photo",
+          "comment": "Long exposure? 📷"
+        },
+        {
+          "user": "alice_wonder",
+          "comment": "Stunning!! 🔥"
+        },
+        {
+          "user": "sarah_travels",
+          "comment": "Which city is this?"
+        },
+        {
+          "user": "john_doe",
+          "comment": "Absolute fire shot 🔥"
+        }
+      ],
+      "timestamp": "2025-02-14T20:00:00Z"
+    },
+    {
+      "id": 5,
+      "user": {
+        "id": 105,
+        "username": "alice_wonder",
+        "profile_pic": "src/assets/Instagram_text.png"
+      },
+      "image": "src/assets/Instagram_logo_2.jpeg",
+      "caption": "Weekend getaway with the crew 🏖️ #Friends #Summer #Vibes",
+      "likes": 678,
+      "comments": [
+        {
+          "user": "emma_rose",
+          "comment": "Miss you all! 😭"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Looks like so much fun!"
+        }
+      ],
+      "timestamp": "2025-02-15T16:30:00Z"
+    },
+    {
+      "id": 6,
+      "user": {
+        "id": 106,
+        "username": "mark_92",
+        "profile_pic": "src/assets/premium_photo-1689977968861-9c91dbb16049.jpeg"
+      },
+      "image": "src/assets/travel-to-the-beautiful-colorful-majestic-waterfall.jpeg",
+      "caption": "Golden hour magic ✨ #Sunset #GoldenHour #Landscape",
+      "likes": 830,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "This is unreal 😮"
+        },
+        {
+          "user": "john_doe",
+          "comment": "What camera do you use?"
+        },
+        {
+          "user": "emma_rose",
+          "comment": "Wallpaper worthy! 🙌"
+        }
+      ],
+      "timestamp": "2025-02-16T18:45:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 101,
+      "username": "john_doe",
+      "full_name": "John Doe",
+      "profile_pic": "src/assets/premium_photo-1689977968861-9c91dbb16049.jpeg",
+      "bio": "📍 New York | 📷 Photography lover",
+      "followers": 1200,
+      "following": 340,
+      "posts": 45
+    },
+    {
+      "id": 102,
+      "username": "sarah_travels",
+      "full_name": "Sarah Johnson",
+      "profile_pic": "src/assets/profile pic 2.jpeg",
+      "bio": "✈️ Traveler | 🌍 Explorer | 📸 Photographer",
+      "followers": 5400,
+      "following": 210,
+      "posts": 128
+    },
+    {
+      "id": 103,
+      "username": "mike_photo",
+      "full_name": "Mike Williams",
+      "profile_pic": "src/assets/profile pic 3.jpeg",
+      "bio": "📷 Professional Photographer | Nature & Wildlife",
+      "followers": 9800,
+      "following": 150,
+      "posts": 312
+    },
+    {
+      "id": 104,
+      "username": "emma_rose",
+      "full_name": "Emma Rose",
+      "profile_pic": "src/assets/Instagram_logo_2.jpeg",
+      "bio": "🌸 Lifestyle | Fashion | Beauty ✨",
+      "followers": 22000,
+      "following": 500,
+      "posts": 89
+    },
+    {
+      "id": 105,
+      "username": "alice_wonder",
+      "full_name": "Alice Cooper",
+      "profile_pic": "src/assets/Instagram_text.png",
+      "bio": "Just living my best life 🌈 | Dog mom 🐶",
+      "followers": 3100,
+      "following": 420,
+      "posts": 67
+    },
+    {
+      "id": 106,
+      "username": "mark_92",
+      "full_name": "Mark Stevens",
+      "profile_pic": "src/assets/premium_photo-1689977968861-9c91dbb16049.jpeg",
+      "bio": "🏔️ Adventure seeker | Landscape photographer",
+      "followers": 7600,
+      "following": 280,
+      "posts": 201
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/premium_photo-1689977968861-9c91dbb16049.jpeg"
+      },
+      "image": "src/assets/travel-to-the-beautiful-colorful-majestic-waterfall.jpeg",
+      "timestamp": "2025-02-16T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "sarah_travels",
+        "profile_pic": "src/assets/profile pic 2.jpeg"
+      },
+      "image": "src/assets/bird-8788491_1280.jpeg",
+      "timestamp": "2025-02-16T11:30:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "mike_photo",
+        "profile_pic": "src/assets/profile pic 3.jpeg"
+      },
+      "image": "src/assets/clutha-nature-pictures.jpeg",
+      "timestamp": "2025-02-16T12:00:00Z"
+    },
+    {
+      "id": 4,
+      "user": {
+        "id": 104,
+        "username": "emma_rose",
+        "profile_pic": "src/assets/Instagram_logo_2.jpeg"
+      },
+      "image": "src/assets/Instagram_photo-1.jpeg",
+      "timestamp": "2025-02-16T13:00:00Z"
+    },
+    {
+      "id": 5,
+      "user": {
+        "id": 105,
+        "username": "alice_wonder",
+        "profile_pic": "src/assets/Instagram_text.png"
+      },
+      "image": "src/assets/Instagram_logo_2.jpeg",
+      "timestamp": "2025-02-16T14:00:00Z"
+    }
+  ]
+}
