@@ -1,5 +1,7 @@
 import React from 'react'  //rfce//
 import Sidebar from './Sidebar.jsx'
+import Feed from './Feed.jsx'
+import Suggestions from './Suggestions.jsx'
 
 function App() {
   return (
@@ -7,8 +9,8 @@ function App() {
       <div className='w-20'>
   <Sidebar />
 </div>
-       <div className='w-50 bg-secondary border'>feed</div>
-        <div className='w-30'>suggestion</div>
+       <div className='w-50 '><Feed/></div>
+        <div className='w-30'><Suggestions/></div>
       
     </div>
   )

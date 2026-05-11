@@ -7,7 +7,7 @@
         "username": "john_doe",
         "profile_pic": "src/assets/premium_photo-1689977968861-9c91dbb16049.jpeg"
       },
-      "image": "src/assets/travel-to-the-beautiful-colorful-majestic-waterfall.jpeg",
+      "image": "src/assets/travel-to-the-beautiful-colorful-majestic-waterfall.jpg",
       "caption": "Beautiful sunset 🌅 #Nature",
       "likes": 120,
       "comments": [
@@ -27,7 +27,7 @@
       "user": {
         "id": 102,
         "username": "sarah_lee",
-        "profile_pic": "src/assets/profile pic 2.jpeg"
+        "profile_pic": "src/assets/profile pic 2.jpg"
       },
       "image": "src/assets/clutha-nature-pictures-67389110.jpg",
       "caption": "Coffee first ☕ #MondayMotivation",
