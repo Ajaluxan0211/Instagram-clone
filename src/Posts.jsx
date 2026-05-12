@@ -1,11 +1,47 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 function Posts() {
-  return (
-    <div>
-      
-    </div>
-  )
+
+    const [posts, setPosts] = useState([]);
+
+    useEffect(() => {
+        fetch('http://localhost:3000/posts')
+            .then((data) => data.json())
+            .then((data) => setPosts(data))
+            .catch(err => console.log(err))
+    }, []);
+
+    return (
+        <div>
+            {posts.length > 0 ? (
+                <div>
+                    {posts.map((post)=>(
+                        <div key={post.id}>
+                            <div className='d-flex'>
+                                <img className='dp rounded-circle' src={post.user.profile_pic} alt='profile'/>
+                                <h5>{post.user.username}</h5>
+                            </div>
+                            <img className='image' src={post.image} alt='post'/>
+                            <div className='d-flex'>
+                                <i className="bi bi-heart"></i>
+                               <i className="bi bi-chat"></i>
+                                <i className="bi bi-send"></i>
+
+
+                            </div>
+                            <div>
+                                <b>{post.likes} likes</b>
+                            </div>
+                            <div>{post.caption}</div>
+
+                        </div>
+                    ))}
+                </div>
+            ) : (
+                <div>loading post</div>
+            )}
+        </div>
+    )
 }
 
 export default Posts
